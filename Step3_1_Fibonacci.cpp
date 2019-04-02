@@ -7,15 +7,15 @@ using namespace std;
 
 int main()
 {
-	int intnum,pibo1=1, pibo2=1,pibo3=0;
+	int intnum,fibo1=1, fibo2=1,fibo3=0;
 	cin >> intnum;
-	cout << pibo1 <<endl<< pibo2<<endl;
-	while ((pibo2+pibo3)<intnum)
+	cout << fibo1 <<endl<< fibo2<<endl;
+	while ((fibo2+fibo3)<intnum)
 	{
-		pibo3 = pibo1 + pibo2;
-		pibo1 = pibo2;
-		pibo2 = pibo3;
-		cout << pibo3<<endl;
+		fibo3 = fibo1 + fibo2;
+		fibo1 = fibo2;
+		fibo2 = fibo3;
+		cout << fibo3<<endl;
 	}
 	return 0;
      
